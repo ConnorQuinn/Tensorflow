@@ -20,7 +20,7 @@ n_nodes_hl_3 = 500
 n_classes = 10
 batch_size = 100
 
-x = tf.placeholder('float', [None, 784])
+x = tf.placeholder('float', [None, 784])  #  28 * 28 MNIST inputs flattened
 y = tf.placeholder('float')
 
 
